@@ -7,6 +7,7 @@
  */
 
 require_once 'Cloud.php';
+use \Dropbox as dbx;
 
 class MDropbox extends Cloud{
     /**

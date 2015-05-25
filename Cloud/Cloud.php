@@ -11,9 +11,7 @@
  *
  * @author HuskyLair
  */
-require_once __DIR__.'/Dropbox/autoload.php';
-
-
+require_once __DIR__.'/../Dropbox/autoload.php';
 use \Dropbox as dbx;
 
 
@@ -29,7 +27,7 @@ abstract class Cloud {
     }
     
     public function setFolder($folder){
-        $this->currentFolder = $folder;
+        $this->currentFolder = $folder."/";
     }
     
 }

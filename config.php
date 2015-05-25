@@ -1,5 +1,8 @@
 <?php
 
+define('FRACTURE_GROUPING',1);
+define('MAIL_FRACTURE_NOREAD','Unfractured');
+
 define('MAIL_USERNAME', 'me@sergio.im');
 define('MAIL_PASSWORD', 'goldenbird1.');
 define('MAIL_SERVER', 'box386.bluehost.com');
